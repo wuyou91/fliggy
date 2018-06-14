@@ -3,6 +3,7 @@
 > A Vue.js project
 
 > 因没有后台接口，页面内容皆为用axios获取的本地json数据
+
 > 初学VUE，仿的阿里飞猪的手机端web。
 
 
@@ -26,11 +27,11 @@
 
 # 使用了
 
-> vue2.0 + vue-cli + vue-router + axios + vuex
+ vue2.0 + vue-cli + vue-router + axios + vuex
 
-> 轮播使用了[VueAwesomeSwiper](https://github.com/surmon-china/vue-awesome-swiper)插件
+ 轮播使用了[VueAwesomeSwiper](https://github.com/surmon-china/vue-awesome-swiper)插件
 
-> 辅助工具node.js、webpack 、git
+ 辅助工具node.js、webpack 、git
 
 ## Build Setup
 
