@@ -2,7 +2,7 @@
   <div class="header">
     <div class="header-user" @click="toggle"><img :src="imgSrc" alt=""></div>
     <div class="header-search"><span></span><div class="search-content">{{searchContent}}</div></div>
-    <div class="header-location"><img src="../../../assets/images/location.png" alt=""></div>
+    <router-link class="header-location" to="/destination"><img src="../../../assets/images/location.png" alt=""></router-link>
     <transition name="fade">
       <ul class="list" v-show="listShow">
         <li><img src="../../../assets/images/list.png" alt=""><p>我的订单</p></li>
@@ -74,6 +74,8 @@ export default {
     top: 40px;
     left: 0;
     padding: 0 10px;
+    background: #fff;
+    overflow: hidden;
   }
   .header .list li{
     display: flex;
@@ -90,9 +92,12 @@ export default {
     height: .26rem;
   }
   .fade-enter-active, .fade-leave-active {
-  transition: opacity .25s ease;
+  transition: all .25s ease;
 }
-.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
-  opacity: 0;
+.fade-enter, .fade-leave-to{
+  height: 0;
+}
+.fade-enter-to,.fade-leave{
+  height: 2.55rem;
 }
 </style>
