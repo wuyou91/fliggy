@@ -69,7 +69,7 @@ export default {
     flex: 1;
     height: 1.25rem;
     margin-right: 8px;
-    background: url(../../../assets/images/cjcs01.jpg) 50% no-repeat;
+    background: url(http://p9uwb0f4z.bkt.clouddn.com/cjcs01.jpg) 50% no-repeat;
     background-size: cover;
   }
   .img-contain .box-l>div{
@@ -97,7 +97,7 @@ export default {
     overflow: hidden;
     width: 33%;
     height: 1.25rem;
-    background: url(../../../assets/images/cjcs02.jpg) 50% no-repeat;
+    background: url(http://p9uwb0f4z.bkt.clouddn.com/cjcs02.jpg) 50% no-repeat;
     background-size: cover;
   }
   .img-contain .box-r>div{

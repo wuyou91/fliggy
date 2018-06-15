@@ -27,7 +27,7 @@ export default {
   },
   methods: {
     getDestinationInfo () {
-      axios.get('/static/json/destination.json').then(this.getDestinationInfoDate)
+      axios.get('https://www.easy-mock.com/mock/5b2372e2b541690d6ed33b65/api/destination').then(this.getDestinationInfoDate)
     },
     getDestinationInfoDate (res) {
       let info = res.data

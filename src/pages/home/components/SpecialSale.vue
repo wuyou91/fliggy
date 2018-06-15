@@ -65,7 +65,7 @@ export default {
     width: 100%;
     height: .8rem;
     margin-top: .3rem;
-    background: url(../../../assets/images/ssale.jpg) no-repeat;
+    background: url(http://p9uwb0f4z.bkt.clouddn.com/ssale.jpg) no-repeat;
     background-position: 50%;
     background-size: cover;
   }

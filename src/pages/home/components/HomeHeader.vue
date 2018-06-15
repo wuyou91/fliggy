@@ -21,14 +21,14 @@ export default {
   data () {
     return {
       searchContent: '上海迪士尼门票',
-      imgSrc: '/static/images/user.png',
+      imgSrc: 'http://p9uwb0f4z.bkt.clouddn.com/user.png',
       listShow: false
     }
   },
   methods: {
     toggle () {
       this.listShow = !this.listShow
-      this.imgSrc = this.imgSrc === '/static/images/user.png' ? '/static/images/close.png' : '/static/images/user.png'
+      this.imgSrc = this.imgSrc === 'http://p9uwb0f4z.bkt.clouddn.com/user.png' ? 'http://p9uwb0f4z.bkt.clouddn.com/close.png' : 'http://p9uwb0f4z.bkt.clouddn.com/user.png'
     }
   }
 }
