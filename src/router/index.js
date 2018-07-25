@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/pages/home/Home'
-import Destination from '@/pages/destination/Destination'
+
+const Home = r => require.ensure([], () => r(require('@/pages/home/Home')), 'Home')
+const Destination = r => require.ensure([], () => r(require('@/pages/destination/Destination')), 'Destination')
 
 Vue.use(Router)
 
