@@ -45,7 +45,7 @@ export default {
   },
   watch: {
     letter () {
-      console.log(this.letter)
+      this.$refs[this.letter.trim()][0].scrollIntoView()
     }
   }
 }
