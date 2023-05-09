@@ -1,6 +1,6 @@
 <template>
   <div class="go-top" v-show="show" @click="goTop">
-    <img src="http://demo.cdn.yancx.cn/demoList/gotop.png" />
+    <img src="http://demo.cdn.yancx.cn/fliggy/gotop.png" />
   </div>
 </template>
 

@@ -41,7 +41,7 @@ export default {
   data() {
     return {
       searchContent: "上海迪士尼门票",
-      imgSrc: "http://demo.cdn.yancx.cn/demoList/user.png",
+      imgSrc: "http://demo.cdn.yancx.cn/fliggy/user.png",
       listShow: false,
     };
   },
@@ -49,9 +49,9 @@ export default {
     toggle() {
       this.listShow = !this.listShow;
       this.imgSrc =
-        this.imgSrc === "http://demo.cdn.yancx.cn/demoList/user.png"
-          ? "http://demo.cdn.yancx.cn/demoList/close.png"
-          : "http://demo.cdn.yancx.cn/demoList/user.png";
+        this.imgSrc === "http://demo.cdn.yancx.cn/fliggy/user.png"
+          ? "http://demo.cdn.yancx.cn/fliggy/close.png"
+          : "http://demo.cdn.yancx.cn/fliggy/user.png";
     },
   },
 };

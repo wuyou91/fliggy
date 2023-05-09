@@ -106,7 +106,7 @@ export default {
 .container .b-box .big-r {
   flex: 1;
   height: 1.4rem;
-  background: url(http://demo.cdn.yancx.cn/demoList/cjl.jpg) 50% no-repeat;
+  background: url(http://demo.cdn.yancx.cn/fliggy/cjl.jpg) 50% no-repeat;
   background-size: cover;
 }
 .container .s-box {

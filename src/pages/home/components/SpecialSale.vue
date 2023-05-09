@@ -69,7 +69,7 @@ export default {
   width: 100%;
   height: 0.8rem;
   margin-top: 0.3rem;
-  background: url(http://demo.cdn.yancx.cn/demoList/ssale.jpg) no-repeat;
+  background: url(http://demo.cdn.yancx.cn/fliggy/ssale.jpg) no-repeat;
   background-position: 50%;
   background-size: cover;
 }

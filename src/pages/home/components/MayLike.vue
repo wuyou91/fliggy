@@ -19,7 +19,7 @@
       </li>
     </ul>
     <div class="open-app">
-      <img src="http://demo.cdn.yancx.cn/demoList/end.jpg" />
+      <img src="http://demo.cdn.yancx.cn/fliggy/end.jpg" />
     </div>
   </section>
 </template>

@@ -6,7 +6,7 @@
         <div
           :style="{
             background:
-              'url(http://demo.cdn.yancx.cn/demoList/travel_nav_' +
+              'url(http://demo.cdn.yancx.cn/fliggy/travel_nav_' +
               item.id +
               '.jpg) 50% no-repeat',
             backgroundSize: 'cover',
