@@ -1,6 +1,6 @@
 # fliggy
 
-> DEMO演示地址：[点击查看](http://www.yancx.cn/Fliggy/#/)
+> DEMO演示地址：[点击查看](http://classical.yancx.cn/Fliggy)
 
 > 因没有后台接口，页面内容皆为用axios获取的本地json数据
 
